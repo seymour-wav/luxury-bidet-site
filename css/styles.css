@@ -127,3 +127,67 @@ body {
     font-weight: 500;
     transition: color 0.3s ease;
 }
+
+/* FAQ */
+.FAQ-grid {
+    width: 2000px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #F2F2F2;
+}
+
+.FAQ-title {
+    height: 550px;
+    width: 500px;
+    margin-left: 100px;
+    background-color: black; 
+    color: white;
+    padding: 20px;
+    text-align: left; 
+}
+
+.FAQ-title h1 {
+    margin: 0;
+    font-size: 3.5em;
+}
+
+.FAQ-spaced {
+    margin-top: 0px;
+    margin-bottom: 80px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(225px, 1fr));
+    margin-right: 350px;
+    column-gap: 20px;
+    row-gap: 20px;
+    min-width: 0;
+    min-height: 0;
+}   
+
+.grid-item {
+    background-color: white;
+    margin-left: 50px;
+    padding: 30px;
+    overflow: hidden;
+    min-width: 225px;
+}
+
+.Learn-More {
+  background-color: white; /* Blue background */
+  color: black; /* White text */
+  padding: 10px 20px; /* Top/bottom 10px, left/right 20px padding */
+  border: 1px solid black; /* No border */
+  border-radius: 5px; /* Slightly rounded corners */
+  font-size: 16px;
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.Learn-More:hover {
+  background-color: #3d95f3;
+}
