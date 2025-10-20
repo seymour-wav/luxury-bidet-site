@@ -338,3 +338,50 @@ body {
   background: black;
   color: white;
 }
+
+/* Installation section styling */
+.installation-section {
+    background-color: #f9fafb;
+    padding: 60px 80px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.7;
+    color: #333;
+  }
+  
+  .installation-section h2 {
+    text-align: center;
+    font-size: 2.2rem;
+    color: #1f2937;
+    margin-bottom: 40px;
+    letter-spacing: 0.5px;
+  }
+  
+  .installation-section h3 {
+    font-size: 1.5rem;
+    color: #2563eb;
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .installation-section h4 {
+    font-size: 1.2rem;
+    color: #111827;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    font-weight: 600;
+  }
+  
+  .installation-section p {
+    margin-bottom: 15px;
+    font-size: 1rem;
+  }
+  
+  .installation-section ul {
+    margin-left: 20px;
+    margin-bottom: 25px;
+  }
+  
+  .installation-section ul li {
+    margin-bottom: 8px;
+  }
+  
